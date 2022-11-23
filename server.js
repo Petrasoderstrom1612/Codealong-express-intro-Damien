@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 // Start defining your routes here
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('When you`re desperado, eat an avocado!');
 });
 
 app.get('/nominations', (req, res) => {
